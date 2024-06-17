@@ -11,6 +11,7 @@ export default function Home() {
       <Tooltip />
       <PinCode />
       <GlobeDemo /> */}
+      {/* task to make a web similar to portifolio */}
     </main>
   );
 }
