@@ -1,16 +1,27 @@
+import { NavbarDemo } from "@/components/NavbarDemo";
 import Image from "next/image";
-import { CardDemo } from "../components/CardDemo";
-import { Tooltip } from "../components/Tooltip";
-import { PinCode } from "../components/PinCode";
-import { GlobeDemo } from "../components/GlobeDemo";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      {/* <Tooltip />
-      <PinCode /> */}
-      <GlobeDemo />
-      {/* task to make a web similar to portifolio */}
+    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+      <div className="max-w-7xl w-full">
+        <NavbarDemo />
+      </div>
     </main>
   );
 }
+
+/*
+<main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+      <div className="max-w-7xl w-full">
+        <FloatingNav navItems={navItems} />
+        <Hero />
+        <Grid />
+        <RecentProjects />
+        <Clients />
+        <Experience />
+        <Approach />
+        <Footer />
+      </div>
+    </main>
+    */
