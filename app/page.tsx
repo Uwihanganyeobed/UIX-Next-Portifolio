@@ -1,11 +1,17 @@
+import { GridBg } from "@/components/GridBg";
+import { HeroDemoPar } from "@/components/HeroDemoPar";
 import { NavbarDemo } from "@/components/NavbarDemo";
+import { SparklesPreview } from "@/components/SparklesPreview";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-      <div className="max-w-7xl w-full">
+      <div className="max-w-1xl w-full">
         <NavbarDemo />
+        <SparklesPreview />
+        <GridBg />
+        <HeroDemoPar />
       </div>
     </main>
   );
