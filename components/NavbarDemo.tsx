@@ -61,7 +61,7 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="https://www.linkedin.com/in/uwihanganye-obed-ba7a90266/">LinkedIn</HoveredLink>
             <HoveredLink href="https://github.com/Uwihanganyeobed">GitHub</HoveredLink>
             <HoveredLink href="https://obed-portifolio-app.vercel.app/">Portifolio</HoveredLink>
-            <HoveredLink href="https://vercel.com/vargas-projects-f7cdfea5">Enterprise</HoveredLink>
+            <HoveredLink href="https://vercel.com/vargas-projects-f7cdfea5">Team</HoveredLink>
           </div>
         </MenuItem>
       </Menu>
