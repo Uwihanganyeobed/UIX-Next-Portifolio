@@ -53,7 +53,7 @@ function Navbar({ className }: { className?: string }) {
               src="https://i.imgur.com/GcMdik9.png"
               description="Expo is an open-source framework for apps that run natively on Android, iOS, and the web."
             />
-            
+          
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Contact Me">
