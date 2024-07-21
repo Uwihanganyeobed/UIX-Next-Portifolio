@@ -1,6 +1,7 @@
 import { GridBg } from "@/components/GridBg";
 import { HeroDemoPar } from "@/components/HeroDemoPar";
 import { NavbarDemo } from "@/components/NavbarDemo";
+import { SignupForm } from "@/components/SignUpForm";
 import { SparklesPreview } from "@/components/SparklesPreview";
 import Image from "next/image";
 
@@ -11,7 +12,8 @@ export default function Home() {
         <NavbarDemo />
         <SparklesPreview />
         <GridBg />
-        <HeroDemoPar />
+        <SignupForm />
+        {/* <HeroDemoPar /> */}
       </div>
     </main>
   );
