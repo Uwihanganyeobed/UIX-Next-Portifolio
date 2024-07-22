@@ -7,11 +7,11 @@ import {
   IconBrandGithub,
   IconBrandGoogle,
   IconBrandOnlyfans,
-  IconBrandFacebook
+  IconBrandFacebook,
 } from "@tabler/icons-react";
 import Link from "next/link";
 
- function SignUpForm() {
+function SignUpForm() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form submitted");
@@ -22,8 +22,8 @@ import Link from "next/link";
         Welcome to Vargas dev Portifolio
       </h2>
       <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300">
-        Register to Lorem Vargas if you can because we don&apos;t have a registration flow
-        yet
+        Register to Lorem Vargas if you can because we don&apos;t have a
+        registration flow yet
       </p>
 
       <form className="my-8" onSubmit={handleSubmit}>
@@ -47,20 +47,18 @@ import Link from "next/link";
         </LabelInputContainer>
         <LabelInputContainer className="mb-8">
           <Label htmlFor="twitterpassword">Your Confirm password</Label>
-          <Input
-            id="twitterpassword"
-            placeholder="••••••••"
-            type="password"
-          />
+          <Input id="twitterpassword" placeholder="••••••••" type="password" />
         </LabelInputContainer>
 
-        <button
-          className="bg-gradient-to-br relative group/btn from-black dark:from-zinc-900 dark:to-zinc-900 to-neutral-600 block dark:bg-zinc-800 w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
-          type="submit"
-        >
-          Sign up &rarr;
-          <BottomGradient />
-        </button>
+        <Link href="/">
+          <button
+            className="bg-gradient-to-br relative group/btn from-black dark:from-zinc-900 dark:to-zinc-900 to-neutral-600 block dark:bg-zinc-800 w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
+            type="submit"
+          >
+            Sign up &rarr;
+            <BottomGradient />
+          </button>
+        </Link>
 
         <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px] w-full" />
 
@@ -95,17 +93,16 @@ import Link from "next/link";
             </span>
             <BottomGradient />
           </button>
-          <Label htmlFor="twitterpassword">Already have an account? Login</Label>
-          <Link href='/login'>
-          <button
-          className="bg-gradient-to-br relative group/btn from-black dark:from-zinc-900 dark:to-zinc-900 to-neutral-600 block dark:bg-zinc-800 w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
-          type="submit"
-        >
-          Sign In &rarr;
-          <BottomGradient />
-        </button>
+          <Label htmlFor="twitterpassword">Already have an account?</Label>
+          <Link href="/login">
+            <button
+              className="bg-gradient-to-br relative group/btn from-black dark:from-zinc-900 dark:to-zinc-900 to-neutral-600 block dark:bg-zinc-800 w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
+              type="submit"
+            >
+              Sign In &rarr;
+              <BottomGradient />
+            </button>
           </Link>
-         
         </div>
       </form>
     </div>
