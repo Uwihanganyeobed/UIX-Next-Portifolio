@@ -12,7 +12,6 @@ export default function Home() {
         <NavbarDemo />
         <SparklesPreview />
         <GridBg />
-        <SignupForm />
         {/* <HeroDemoPar /> */}
       </div>
     </main>
