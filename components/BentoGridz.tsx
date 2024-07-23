@@ -15,8 +15,8 @@ import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
 export function BentoGridz() {
   return (
     <>
-     <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
-        Lorem Dev
+     <h1 className="md:text-7xl text-2xl lg:text-4xl font-bold text-center text-white relative z-20">
+     A small selection of recent Activities
       </h1>
      <BentoGrid className="max-w-5xl mx-auto md:auto-rows-[20rem]">
         
