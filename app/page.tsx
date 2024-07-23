@@ -9,6 +9,7 @@ export default function Home() {
         <NavbarDemo />
         <div className=" bg-black-100 pb-10 pt-30 flex flex-col gap-5">
           <SparklesPreview />
+          
           <BentoGridz />
         </div>
       </div>
