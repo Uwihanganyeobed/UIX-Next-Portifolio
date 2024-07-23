@@ -74,14 +74,15 @@ function Navbar({ className }: { className?: string }) {
         </MenuItem>
         <div className="flex items-center ml-auto -mt-1.5">
           {" "}
+          
           {/* Adjusted margin to move button up */}
+
           <Link href="/login">
             <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
               <span className="flex items-center">
                 <span className="mr-2">Account</span>
                 <BsPersonFillLock size={15} />
               </span>
-
               <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px" />
             </button>
           </Link>
