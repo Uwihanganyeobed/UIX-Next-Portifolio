@@ -1,5 +1,6 @@
 import { BentoGridz } from "@/components/BentoGridz";
 import { HeroDemoPar } from "@/components/HeroDemoPar";
+import { Meteorz } from "@/components/Meteorz";
 import { NavbarDemo } from "@/components/NavbarDemo";
 import { SparklesPreview } from "@/components/SparklesPreview";
 
@@ -11,6 +12,7 @@ export default function Home() {
         <div className=" bg-black-100 pb-10 pt-30 flex flex-col gap-5">
           <SparklesPreview />
           <BentoGridz />
+          {/* <Meteorz /> */}
         </div>
       </div>
     </main>
