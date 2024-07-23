@@ -72,7 +72,7 @@ function Navbar({ className }: { className?: string }) {
             </HoveredLink>
           </div>
         </MenuItem>
-        <div className="flex items-center ml-auto -mt-1">
+        <div className="flex items-center ml-auto -mt-1.5">
           {" "}
           {/* Adjusted margin to move button up */}
           <Link href="/login">
