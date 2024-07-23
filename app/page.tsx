@@ -1,6 +1,4 @@
 import { BentoGridz } from "@/components/BentoGridz";
-import { HeroDemoPar } from "@/components/HeroDemoPar";
-import { Meteorz } from "@/components/Meteorz";
 import { NavbarDemo } from "@/components/NavbarDemo";
 import { SparklesPreview } from "@/components/SparklesPreview";
 
