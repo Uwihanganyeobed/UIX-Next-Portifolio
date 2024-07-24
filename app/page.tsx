@@ -1,4 +1,3 @@
-"use client"
 import { BentoGridz } from "@/components/BentoGridz";
 import { MultiStepLoaderz } from "@/components/MultiStepLoaderz";
 import { NavbarDemo } from "@/components/NavbarDemo";

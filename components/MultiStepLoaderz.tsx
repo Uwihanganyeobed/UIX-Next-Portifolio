@@ -14,7 +14,7 @@ const loadingStates = [
     text: "Figma & Canvas",
   },
   {
-    text: "Java Programming",
+    text: "Java with Oracle AI",
   },
   {
     text: "MERN",
