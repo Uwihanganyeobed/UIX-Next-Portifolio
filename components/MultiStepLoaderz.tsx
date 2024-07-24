@@ -5,28 +5,28 @@ import { IconSquareRoundedX } from "@tabler/icons-react";
 
 const loadingStates = [
   {
-    text: "Buying a condo",
+    text: "React & Next (Js & Ts)",
   },
   {
-    text: "Travelling in a flight",
+    text: "Tailwind Css & Material UI",
   },
   {
-    text: "Meeting Tyler Durden",
+    text: "Figma & Canvas",
   },
   {
-    text: "He makes soap",
+    text: "Java Programming",
   },
   {
-    text: "We goto a bar",
+    text: "MERN",
   },
   {
-    text: "Start a fight",
+    text: "Expo Router & React Native",
   },
   {
-    text: "We like it",
+    text: "Postman & Thunder Client",
   },
   {
-    text: "Welcome to F**** C***",
+    text: "Vercel, Netlify & CircleCI",
   },
 ];
 
@@ -46,7 +46,7 @@ export function MultiStepLoaderz() {
             "0px -1px 0px 0px #ffffff40 inset, 0px 1px 0px 0px #ffffff40 inset",
         }}
       >
-        Click to load
+        Used Languages
       </button>
 
       {loading && (
