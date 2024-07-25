@@ -1,5 +1,6 @@
 import { BentoGridz } from "@/components/BentoGridz";
 import { CardCarousel } from "@/components/CardCarousel";
+import { ImagesSliderz } from "@/components/ImageSliderz";
 import { MultiStepLoaderz } from "@/components/MultiStepLoaderz";
 import { NavbarDemo } from "@/components/NavbarDemo";
 import { SparklesPreview } from "@/components/SparklesPreview";
@@ -14,6 +15,7 @@ export default function Home() {
           <BentoGridz />
           <MultiStepLoaderz />
           <CardCarousel />
+          <ImagesSliderz />
         </div>
       </div>
     </main>
