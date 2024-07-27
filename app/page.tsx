@@ -1,6 +1,7 @@
 import { BentoGridz } from "@/components/BentoGridz";
 import { CardCarousel } from "@/components/CardCarousel";
 import { ExpandableCard } from "@/components/ExpandableCard";
+import Footer from "@/components/Footer";
 import { ImagesSliderz } from "@/components/ImageSliderz";
 import { MultiStepLoaderz } from "@/components/MultiStepLoaderz";
 import { NavbarDemo } from "@/components/NavbarDemo";
@@ -18,6 +19,7 @@ export default function Home() {
           <CardCarousel />
           <ImagesSliderz />
           <ExpandableCard />
+          <Footer />
         </div>
       </div>
     </main>
