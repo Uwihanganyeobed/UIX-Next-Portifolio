@@ -3,7 +3,7 @@ import React from "react";
 
 import { SparklesCore } from "./ui/sparkless";
 import { Globez } from "./Globez";
-export function SparklesPreview() {
+export function Header() {
   return (
     <div className="h-[30rem] w-full flex flex-col items-center justify-center overflow-hidden rounded-xl">
       <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">

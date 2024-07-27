@@ -5,7 +5,7 @@ import { cn } from "@/utils/cn";
 import { BsPersonFillLock } from "react-icons/bs";
 import Link from "next/link";
 
-export function NavbarDemo() {
+export function Navbarz() {
   return (
     <div className="relative w-full flex items-center justify-center ">
       <Navbar className="top-2 " />

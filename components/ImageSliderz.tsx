@@ -4,7 +4,7 @@ import React from "react";
 import { ImagesSlider } from "./ui/images-slider";
 import Link from "next/link";
 
-export function ImagesSliderz() {
+export function Certificates() {
   const images = [
     "https://i.imgur.com/e7lsY1i.png",
     "https://i.imgur.com/k7EBWXO.png",

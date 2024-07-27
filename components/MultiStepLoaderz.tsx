@@ -30,7 +30,7 @@ const loadingStates = [
   },
 ];
 
-export function MultiStepLoaderz() {
+export function Languages() {
   const [loading, setLoading] = useState(false);
   return (
     <div className="w-full h-[60vh] flex items-center justify-center">

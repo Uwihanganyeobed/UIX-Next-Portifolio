@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
 
-export function BentoGridz() {
+export function Activityz() {
   return (
     <>
      <h1 className="md:text-7xl text-2xl lg:text-4xl font-bold text-center text-white relative z-20">
