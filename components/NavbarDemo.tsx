@@ -22,10 +22,10 @@ function Navbar({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="https://responsive-uix-landing-page.vercel.app/">Web Development</HoveredLink>
-            <HoveredLink href="https://responsive-uix-landing-page.vercel.app/">Figma UI Design</HoveredLink>
-            <HoveredLink href="https://responsive-uix-landing-page.vercel.app/">Project Analysis</HoveredLink>
-            <HoveredLink href="https://responsive-uix-landing-page.vercel.app/">App Development</HoveredLink>
+            <HoveredLink href="https://vargas-landing-page.vercel.app/">Web Development</HoveredLink>
+            <HoveredLink href="https://vargas-landing-page.vercel.app/">Figma UI Design</HoveredLink>
+            <HoveredLink href="https://vargas-landing-page.vercel.app/">Project Analysis</HoveredLink>
+            <HoveredLink href="https://vargas-landing-page.vercel.app/">App Development</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Projects">
