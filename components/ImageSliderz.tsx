@@ -10,6 +10,7 @@ export function Certificates() {
     "https://i.imgur.com/k7EBWXO.png",
     "https://i.imgur.com/88Z4irr.png",
     "https://i.imgur.com/3dMQW5L.png",
+    "https://i.imgur.com/KpHVEX6.png"
   ];
   return (
     <ImagesSlider className="h-[40rem]" images={images}>
