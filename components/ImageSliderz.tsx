@@ -10,7 +10,7 @@ export function Certificates() {
     "https://i.imgur.com/k7EBWXO.png",
     "https://i.imgur.com/88Z4irr.png",
     "https://i.imgur.com/3dMQW5L.png",
-    "https://i.imgur.com/KpHVEX6.png"
+    "https://i.imgur.com/KpHVEX6.png",
   ];
   return (
     <ImagesSlider className="h-[40rem]" images={images}>
@@ -31,13 +31,12 @@ export function Certificates() {
         <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
           The hero section showing <br /> my FreeCodeCamp Certificates
         </motion.p>
-        <Link href='/login'>
-        <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
-          <span>Join Me now →</span>
-          <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
-        </button>
+        <Link href="/login">
+          <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
+            <span>Join Me now →</span>
+            <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
+          </button>
         </Link>
-      
       </motion.div>
     </ImagesSlider>
   );

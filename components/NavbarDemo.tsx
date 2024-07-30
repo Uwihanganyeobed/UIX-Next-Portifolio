@@ -17,15 +17,26 @@ function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 ", className)}
+      className={cn(
+        "fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 ",
+        className
+      )}
     >
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="https://vargas-landing-page.vercel.app/">Web Development</HoveredLink>
-            <HoveredLink href="https://vargas-landing-page.vercel.app/">Figma UI Design</HoveredLink>
-            <HoveredLink href="https://vargas-landing-page.vercel.app/">Project Analysis</HoveredLink>
-            <HoveredLink href="https://vargas-landing-page.vercel.app/">App Development</HoveredLink>
+            <HoveredLink href="https://vargas-landing-page.vercel.app/">
+              Web Development
+            </HoveredLink>
+            <HoveredLink href="https://vargas-landing-page.vercel.app/">
+              Figma UI Design
+            </HoveredLink>
+            <HoveredLink href="https://vargas-landing-page.vercel.app/">
+              Project Analysis
+            </HoveredLink>
+            <HoveredLink href="https://vargas-landing-page.vercel.app/">
+              App Development
+            </HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Projects">
@@ -74,9 +85,7 @@ function Navbar({ className }: { className?: string }) {
         </MenuItem>
         <div className="flex items-center ml-auto -mt-1.5">
           {" "}
-          
           {/* Adjusted margin to move button up */}
-
           <Link href="/login">
             <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
               <span className="flex items-center">
